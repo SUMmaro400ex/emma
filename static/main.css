@@ -1,41 +1,48 @@
 body {
-    text-align: center;
-    color: pink;
     background-image: url("https://i.pinimg.com/736x/2a/42/42/2a4242fcc154b794540f34771f179fab--macbook-wallpaper-flamingo-party.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-family: "Alex Brush";
     height: 100vh;
     margin: 0 auto;
     padding-left: 10em;
 }
-h1 {
-    padding-top: 3em;
+#emma {
+    text-align: center;
+    color: pink;
+    font-family: "Alex Brush";
+    padding-top: 125px;
     font-size: 4em;
     margin: 0;
     padding-bottom: 0.5em;
 }
-h3 {
+.subHeading {
     font-family: "Karla";
     font-size: 1.9em;
+    text-align: center;
+    color: pink;
 }
 a {
     text-decoration: none;
 }
-img {
+#carouselExampleIndicators {
+    width: 500px;
+    height: 500px;
+    left: calc((100% - 500px) / 2);
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.4);
     animation: fadein 2s;
-    border-radius: 6px;
     transition: all 0.5s;
-}
-img:hover {
-    transform: scale(1.02)
+    margin-bottom: 40px;
 }
 #count {
     font-size: 1.9em;
+    text-align: center;
+    color: pink;
 }
 #registry {
-    padding-top: 10vh;
+    padding-top: 75px;
+    text-align: center;
 }
 #target {
     box-shadow: unset;
@@ -57,23 +64,27 @@ img:hover {
     body {
       padding-left: 0;
       background-image: url("http://meriamr.m.e.pic.centerblog.net/o/d3c45e11.jpg");
-      color: white;
     }
-    h1{
+    #emma {
         padding-top: 0.5em;
         font-size: 2.5em;
+        color: white;
     }
-    img {
-        width: 80vw;
-    }
-    h3 {
+    .subHeading {
         font-size: 1.5em;
+        color: white;
     }
     #count {
         font-size: 1.5em;
+        color: white;
     }
     #registry {
         width: 100vw;
         padding-top: 5vh;
+    }
+    #carouselExampleIndicators {
+        width: 300px;
+        height: 300px;
+        left: calc((100% - 300px) / 2);
     }
   }
